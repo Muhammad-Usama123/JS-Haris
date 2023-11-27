@@ -21,4 +21,6 @@
 //      *) javascript reserved words cannot be used as a variable name.
 //      *) (let Harry = 7) and (let harry = 7) both of these are different variables because           javascript is case sensitive (but don't do this because it will reduce the readability of program).
 
+// 10) We can add a new key with value in const object and also we can update the value of existing keys inside const object.
+
 
