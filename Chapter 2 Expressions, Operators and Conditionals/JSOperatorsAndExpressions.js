@@ -45,7 +45,7 @@
     // *) < less than
     // *) >= greater than or equal to
     // *) <= less than or equal to
-    // *) ? ternary operator
+    // *) ? ternary operator // same like if(){}else{} statement
 
 // 4) Logical Operators: 
 
