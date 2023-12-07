@@ -26,6 +26,21 @@
 
             // Details of above Example Of Syntax: in the first statement the value of i is 0, then in second statement this for loop checks the given condition and in this case the condition is i<5, so, in this case the value of i is 0 which is less than 5 and because the condition is true the code inside "{}" will run, after that the loop will go to third statement and apply whatever the statement is saying and then the whole cycle except the statement 1, statement 1 will only execute 1 time when this loop will start (that I explained in this detail previously) will be repeated until the second statement becomes false and when the 2nd statement will become false the loop will stop. In other words statement 1 will only execute 1 time, statement 2 is the condition based on which the loop runs, statement 3 is executed everytime the loop body is executed.
 
+            // Practice Set Question Of For Loop: 
+
+                // Q) Write a program to print the marks of a student in an object using for loop.
+
+                    // let marks = {
+                        // Haris: 80,
+                        // Usama: 100,
+                        // Umer: 90,
+                        // Laraib: 60
+                    // }
+
+                    // for (let i=0; i<Object.keys(marks).length; i++){
+                        //console.log("Marks of " + Object.keys(marks)[i] + " are " + marks[Object.keys(marks)[i]]) // Note: console.log(Object.keys(marks)) will give us all the keys of above declared marks object in an array.
+                    // }
+
         // *) For In Loop: 
 
             // Loops through the keys of an object. For In Loops also work with arrays not only object.
@@ -47,6 +62,21 @@
             // }
 
             // result in console of above example will be (Marks of (name of all keys one by one) are (value of all keys one by one))
+
+            // Practice Set Question Of For In Loop: 
+
+                // Q) Write the program in Q1 using for in loop.
+
+                    // let marks = {
+                        // Haris: 80,
+                        // Usama: 100,
+                        // Umer: 90,
+                        // Laraib: 60
+                    // }    
+
+                    // for (let key in marks) {
+                    //     console.log("Marks of " + key + ' are ' + marks[key]);
+                    // }
 
         // *) For Of Loop:
 
@@ -71,3 +101,6 @@
         // *) Do While Loop:
 
             // While loop variant which runs atleast once.
+
+
+// Array is the collection of items.
