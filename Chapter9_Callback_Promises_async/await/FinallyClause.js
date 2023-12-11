@@ -1,0 +1,3 @@
+// The Finally Clause:
+
+    // The try.. catch construct may have one more code clause which is "finally". If it exists it will run in all cases whether our try code throw any error or successfully run the code, in both the cases the finally will always run at the end if it exists. We use Finally for final cleanups usually, like code for "close the file", code for "exit the loop" or code for "write to the log file" etc. etc.. If we'll put try, catch and finally blocks even in a function and try ran the code successfully means it doesn't produced any error and after the code even if we wrote return keyword inside that try block, the finally will still run at the end.
