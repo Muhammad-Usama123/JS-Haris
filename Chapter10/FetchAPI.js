@@ -1,0 +1,1 @@
+// fetch function is a promise and it returns a promise and we can use .then() etc. after getting that returned promise and pass it into .then() and so on.
