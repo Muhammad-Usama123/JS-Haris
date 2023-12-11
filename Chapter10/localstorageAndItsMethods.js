@@ -24,5 +24,14 @@
 
             // delete localStorage.one
 
+    // Important Notes: 
+
+        // 1) Both key and values must be strings.
+
+        // 2) We can use the 2 json methods to store objects in local storage:
+
+            // Json.Stringify(object)
+            // Json.parse(string)
+
 
 
