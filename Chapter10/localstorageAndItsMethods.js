@@ -33,5 +33,17 @@
             // Json.Stringify(object)
             // Json.parse(string)
 
+    // Storage Event:
+
+        // When the data gets updated in localStorage or sessionStorage, storage event triggers with these properties below:
+
+        // 1) key       // Note: The key
+        // 1) oldValue  // Note: previous value
+        // 1) newValue  // Note: new value
+        // 1) Url       // Note: Page URL
+        // 1) StorageArea // Note: localStorage or sessionStorage
+
+        // Note: We can listen the onstorage event of window which is triggered when updates are made to the same storage from other documents.
+
 
 
